@@ -69,7 +69,7 @@ class Game
     else
       turn #run through THIS method (not board's turn method) again if not a valid move
     end
-    #@board.display #display board again to indicate the updated move
+    @board.display #display board again to indicate the updated move
   end
 
   def play
