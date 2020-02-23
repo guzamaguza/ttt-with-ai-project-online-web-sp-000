@@ -15,9 +15,9 @@ class Player
           puts "Computer V Computer"
           #player1 & player 2 will be computer
           player_1 = Players::Computer.new("X")
-          player_1.token = 'X'
+          #player_1.token = 'X'
           player_2 = Players::Computer.new("O")
-          player_2.token = 'O'
+          #player_2.token = 'O'
           Game.new(player_1 , player_2).play
 
       elsif input_0 == '1'
