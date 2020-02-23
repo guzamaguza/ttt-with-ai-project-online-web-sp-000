@@ -25,7 +25,7 @@ class Player
           puts "You are Player 2 with token O."
           player_1 = Players::Computer.new("X")
           #player_2 = Players::Human.new("O")
-          Game.new(player1).play
+          Game.new(player_1).play
 
       elsif input_0 == '2'
         puts 'Human V Human'
