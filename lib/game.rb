@@ -75,7 +75,6 @@ class Game
 
   def play
     turn until over?
-
     if over?
       if won?
         puts "Congratulations #{winner}!"
