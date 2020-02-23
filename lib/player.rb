@@ -21,7 +21,8 @@ class Player
       elsif input_0 == '1'
           puts 'Human V Computer'
           #player1 = computer & player2 = user
-          puts "You are Player 2, with token O."
+          puts "The computer is Player 1 with token X"
+          puts "You are Player 2 with token O."
           player_1 = Players::Computer.new("X")
           player_2 = Players::Human.new("O")
           game = Game.new(player1)
