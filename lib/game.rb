@@ -61,6 +61,7 @@ class Game
   end
 
   def turn
+    puts "Before Move..."
     @board.display #display the board
     attempted_move = self.current_player.move(@board) #assign the attempted move to the current player
 
@@ -69,6 +70,7 @@ class Game
     else
       turn #run through THIS method (not board's turn method) again if not a valid move
     end
+    puts "After Move..."
     @board.display #display board again to indicate the updated move
   end
 
