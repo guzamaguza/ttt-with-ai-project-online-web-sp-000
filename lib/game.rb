@@ -60,6 +60,8 @@ class Game
       end
   end
 
+#the powerhouse methods of this game are play and turn 
+
   def turn
     puts "Before Move..."
     @board.display #display the board
